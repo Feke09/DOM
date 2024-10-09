@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.cart {
+  width: 400px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.heart {
+  cursor: pointer;
+  font-size: 20px;
+  color: grey;
+}
+
+.heart.liked {
+  color: red;
+}
